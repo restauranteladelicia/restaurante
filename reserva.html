@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RESTAURANTE LA DELICIA</title>
+	<style type="text/css">
+		*{
+		padding: 0;
+		margin: 0;
+		
+	}
+
+		.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+
+	</style>
+	
+	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+	<style type="text/css">
+		#formulario{
+			width: 960px;
+			height: 500px;
+			background: #FBD2D2;
+			margin: 0 auto;
+
+
+		}
+
+		#formu{
+			margin: 0 auto;
+			float: right;
+			
+			background: #FBD2D2;
+			width: 900px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: Arial;
+	font-size: 13px;
+	
+	
+
+
+}
+
+
+	</style>
+<body>
+
+	<div class="social">
+		<ul>
+			<li><a href="http://www." target="_blank" class="icon-facebook2"></a></li>
+			<li><a href="http://www." target="_blank" class="icon-twitter"></a></li>
+		<li><a href="http://www." target="_blank" class="icon-google-plus2"></a></li>
+		<li><a href="http://www." target="_blank" class="icon-pinterest"></a></li>
+		<li><a href="http://www." target="_blank" class="icon-mail"></a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<div id="logotipo">
+				
+			</div>
+				
+			<h1 align="center" >  "RESTAURANTE LA DELICIA" <span>“Lo importante no es lo que se come, sino cómo se come”</span>
+			</h1>
+
+			<div id="menu">
+			<ul>
+				<li><a href="index.html" target="_blank">INICIO</a></li>
+				<li><a href="quienessomos.html" target="_blank">QUIENES SOMOS</a></li>
+				<li><a href="nuestracarta.html" target="_blank">NUESTRA CARTA </a></li>
+				<li><a href="galeriadeimagenes.html" target="_blank">GALERIA</a></li>
+				<li><a href="reserva.html" target="_blank">RESERVAS</a></li>
+				<li><a href="reserva.html" target="_blank">PREPARACION</a></li>
+			<li><a href="http://www." target="_blank" class="icon-twitter"></a></li>
+
+			</ul>
+		</div>
+
+<div id="formulario">
+
+
+	<H2><FONT COLOR="#8080FF">FORMULARIO  DE RESERVAS</FONT></H2>
+
+	<div id="formu">
+
+	<form action="" method="post" >
+						 <table width="600" align="center" align="center">
+						 <tbody><tr><td width="113">
+	<input type="hidden" name="tipo" value="simple" >
+                    	<p>Ingrese su nombre: </p>
+						</td>
+						<td width="291">
+						<input type="text" name="nombre" size="35" >
+						</td>
+						</tr>
+						<tr>
+						<td>
+                        <p>Ingrese su correo: </p>
+						</td>
+						<td> <input type="text" name="email" size="35" ></td>
+						</tr>
+						<tr>
+						<td>
+                        <p>Ingrese su Teléfono:</p>
+						</td>
+						<td> <input type="text" name="telefono" size="20"></td>
+						</tr>
+						<tr>
+						<td>
+                        <p>Ingrese su consulta</p>
+						</td>
+						<td>
+						<textarea name="asunto" cols="35" rows="6" ></textarea>
+						</td>
+						</tr>
+						<tr>
+							<td>
+								<P>Sexo:</P>
+	<INPUT TYPE="RADIO"
+	  NAME="sexo"
+	  VALUE="hombre"
+	  CHECKED>Hombre   
+	<INPUT TYPE="RADIO"
+	  NAME="sexo"
+	  VALUE="mujer">Mujer</td>
+						</tr>
+
+						<tr>
+							<td>
+								<p>Mesa para:</p>
+                
+                <select >
+                  
+                    <option value="--">--</option>
+                  
+                    <option value="1 persona">1 persona</option>
+                  
+                    <option value="2 personas">2 personas</option>
+                  
+                    <option value="3 personas">3 personas</option>
+                  
+                    <option value="4 personas">4 personas</option>
+                  
+                    <option value="+ 5 personas"> 5 personas</option>
+                  
+                </select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<p>Mes</p>
+                <select >
+                  
+                    <option value="Enero">Enero</option>
+                  
+                    <option value="Febrero">Febrero</option>
+                  
+                    <option value="Marzo">Marzo</option>
+                  
+                    <option value="Abril">Abril</option>
+                  
+                    <option value="Mayo">Mayo</option>
+                  
+                    <option value="Junio">Junio</option>
+                  
+                    <option value="Julio">Julio</option>
+                  
+                    <option value="Agosto">Agosto</option>
+                  
+                    <option value="Setiembre">Setiembre</option>
+                  
+                    <option value="Octubre">Octubre</option>
+                  
+                    <option value="Noviembre">Noviembre</option>
+                  
+                    <option value="Diciembre">Diciembre</option>
+                  
+                </select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<p>Día</p>
+                
+                <select >
+                  
+                    <option value="1">1</option>
+                  
+                    <option value="2">2</option>
+                  
+                    <option value="3">3</option>
+                  
+                    <option value="4">4</option>
+                  
+                    <option value="5">5</option>
+                  
+                    <option value="6">6</option>
+                  
+                    <option value="7">7</option>
+                  
+                    <option value="8">8</option>
+                  
+                    <option value="9">9</option>
+                  
+                    <option value="10">10</option>
+                  
+                    <option value="11">11</option>
+                  
+                    <option value="12">12</option>
+                  
+                    <option value="13">13</option>
+                  
+                    <option value="14">14</option>
+                  
+                    <option value="15">15</option>
+                  
+                    <option value="16">16</option>
+                  
+                    <option value="17">17</option>
+                  
+                    <option value="18">18</option>
+                  
+                    <option value="19">19</option>
+                  
+                    <option value="20">20</option>
+                  
+                    <option value="21">21</option>
+                  
+                    <option value="22">22</option>
+                  
+                    <option value="23">23</option>
+                  
+                    <option value="24">24</option>
+                  
+                    <option value="25">25</option>
+                  
+                    <option value="26">26</option>
+                  
+                    <option value="27">27</option>
+                  
+                    <option value="28">28</option>
+                  
+                    <option value="29">29</option>
+                  
+                    <option value="30">30</option>
+                  
+                    <option value="31">31</option>
+                  
+                </select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<p>Hora</p>
+                
+                <select >
+                  
+                    <option value="12:00">12:00</option>
+                  
+                    <option value="13:00">13:00</option>
+                  
+                    <option value="14:00">14:00</option>
+                  
+                    <option value="15:00">15:00</option>
+                  
+                    <option value="16:00">16:00</option>
+                  
+                    <option value="17:00">17:00</option>
+                  
+                    <option value="18:00">18:00</option>
+                  
+                </select>
+
+							</td>
+						</tr>
+
+
+
+						<tr>
+						<td colspan="2" align="center">
+                	  	<input type="submit" name="Enviar" value="reservar" alt="Enviar" class="button" title="Subscribe">
+						</td>
+						</tr>
+						</tbody></table>
+            		</form>
+	                  </div>
+	                   </div>
+
+
+	
+</div>
+
+<div class="contacto">
+			<br>
+			
+			
+			<h3 align="center">CONTACTENOS</h3>
+			<br>
+			<p align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum est placeat fuga, quaerat labore odio quasi, sequi quam, magnam et id veniam non dolores excepturi recusandae! Aliquam cumque laudantium provident!</p>
+			<div align="center">
+				<br>
+			<a href="#">Mas informacion</a>
+			</div>
+		</div>
+	</div>
+<div class="contenido">
+  <div class="divizquierda">
+  <br>
+  <br>
+ 		<p align="center" >Escriba su correo</p>
+      <p align="center"<input type="email" placeholder="Escriba su correo" >
+      	<input type="email" name="correo">
+					<input type="submit" value="Suscribase" ></p>
+    </div>
+  
+  <div class="divderecha">
+  	<br><br>
+      <p align="center"<h3>Direccion</h3>
+		<p align="center">244.Av Los Incas-callao</p>
+		<p align="center">(+51)928365836-928365837</p>
+		<p align="center">restauranteladelicia@gmail.com</p>
+    </div>
+  
+  <div class="divcentro">
+  	<br><br>
+      <p align="center"<h3 align="center">Sobre Nosotros</h3>
+      <br><br>
+					<p align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt nostrum eius quos ducimus tenetur unde voluptates nisi magni, pariatur optio, distinctio voluptas, voluptatem. Aperiam molestiae dolorum, atque sit saepe quaerat!</p>
+    </div>
+  
+</div>
+	
+	
+</body>
+</html>
